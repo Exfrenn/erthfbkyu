@@ -3,7 +3,7 @@ const app = express();
 
 //app.get('view engine', 'ejs');
 app.get('/', (req, res) => {
-    res.send('Bruh');
+    res.send('Bru');
 });
 
 app.get('/name/:name' , (req, res) => {
