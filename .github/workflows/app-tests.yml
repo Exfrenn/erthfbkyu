@@ -1,18 +1,19 @@
-name: "App Tests"
+name: App Tests
 
 on: push 
 
 jobs:
-  name: "Run Tests"
-  runs-on:"ubuntu-latest"
+  sampleapp-tests:
+    name: "Run Tests"
+    runs-on:"ubuntu-latest"
+    
+    steps:
+    - uses: actions/checkout@v3
   
-  steps:
-  - uses: actions/checkout@v3
-
-  -name: "Install Dependencies"
-  -working-directory: ./sampleapp
-  run: npm install
-
-  -name: "Run Tests"
-  -working-directory: ./sampleapp
-  run: npm test
+    -name: "Install Dependencies"
+    -working-directory: ./sampleapp
+    run: npm install
+  
+    -name: "Run Tests"
+    -working-directory: ./sampleapp
+    run: npm test
