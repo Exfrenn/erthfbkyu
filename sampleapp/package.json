@@ -1,0 +1,23 @@
+{
+  "name": "erthfbkyu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Exfrenn/erthfbkyu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Exfrenn/erthfbkyu/issues"
+  },
+  "homepage": "https://github.com/Exfrenn/erthfbkyu#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
